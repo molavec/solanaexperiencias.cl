@@ -1,4 +1,5 @@
 ---
+import BtnLink from "../shared/BtnLink.astro";
 import Button from "../shared/Button.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
@@ -41,16 +42,17 @@ import Paragraph from "../shared/Paragraph.astro";
           class="text-3xl/tight sm:text-4xl/tight md:text-5xl/tight
           font-bold text-heading-1"
         >
-          Quick Start your <span class="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 from-20% via-primary via-30% to-green-600">Strategic Digital</span> Marketing Campaing
+          Conócenos en nuestras 
+          <span class="text-transparent bg-clip-text bg-gradient-to-br from-yellow-600 from-20% via-primary via-30% to-yellow-600">
+            Redes Sociales
+          </span> para conocer nuevos tour y contactarnos.
         </h1>
         <Paragraph className={"pt-10"}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-          delectus architecto ullam earum
+          Aquí podrás encontrar nuevos tours, solicitar viajes especiales y conocer descuentos especiales.
         </Paragraph>
-        <div class="mx-auto max-w-md sm:max-w-xl pt-10">
-          <Button variant={"primary"}>
-            <span class="text-white relative z-[5]">Get In Touch</span>
-          </Button>
+        <div class="flex justify-center gap-2 max-w-md sm:max-w-xl pt-10">
+          <BtnLink text="Instagram" href="https://www.instagram.com/solanaexperiencias/" className="flex justify-center w-full sm:w-max" variant="primary"/>
+          <BtnLink text="Facebook" href="https://www.facebook.com/solanaexperienciastour" className="flex justify-center w-full sm:w-max" variant="primary"/>
         </div>
       </div>
     </div>

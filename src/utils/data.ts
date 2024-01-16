@@ -1,39 +1,26 @@
+const PHONE = "56932187366";
+
 const services = [
     {
-        title: "Social media marketing",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>`,
+        title: "Parque Tricao",
+        description: "Es un recorrido por la reserva natural y el aviario más grande de Sudamérica.",
+        image: `/images/ave.jpeg`,
+        ctaText: '¡Quiero Ir!', 
+        ctaLink: `https://wa.me/${PHONE}?text=Hola,%20estoy%20interesado%20en%20el%20paseo%20a%20Parque%20Tricao`,
     },
     {
-        title: "Amazon affiliate marketing",
-        description: "Sunt, ipsam, necessitatibus sint fugit officia laboriosam minima ab ullam at magni et. Quaerat, sint!",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>`,
+        title: "Tour del Vino",
+        description: "Un recorrido al corazón de este valle vitivinícola de Chile para degustar sabores increíbles.",
+        image: `/images/vino.jpg`,
+        ctaText: '¡Quiero Ir!', 
+        ctaLink: `https://wa.me/${PHONE}?text=Hola,%20estoy%20interesado%20en%20el%20paseo%20a%20Tour%20de%20Vinos`,
     },
     {
-        title: "Email marketing",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>`,
-    },
-    {
-        title: "Social media marketing",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>`,
-    },
-    {
-        title: "Amazon affiliate marketing",
-        description: "Sunt, ipsam, necessitatibus sint fugit officia laboriosam minima ab ullam at magni et. Quaerat, sint!",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>`,
-    },
-    {
-        title: "Email marketing",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui soluta cupiditate",
-        icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"> <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>`,
+        title: "Litoral de los Poetas",
+        description: "Paseo por museos y lugares destacados en la vida de los artistas y poetas más reconocidos.",
+        image: `/images/quintay.jpg`,
+        ctaText: '¡Quiero Ir!', 
+        ctaLink: `https://wa.me/${PHONE}?text=Hola,%20estoy%20interesado%20en%20el%20paseo%20a%20Litoral%20de%20los%20Poetas`,
     },
 ];
 
