@@ -1,4 +1,6 @@
-const PHONE = "56932187366";
+//const PHONE = "56932187366"; //Karina
+
+const PHONE = "56945254389"; //Solana
 
 const services = [
     {
